@@ -1,0 +1,12 @@
+{
+  "config_version": 1,
+  "package": "com.donutsmp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "HudRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

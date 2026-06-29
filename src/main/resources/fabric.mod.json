@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "donutsmp_mod",
+  "version": "${version}",
+  "name": "DonutSMP Fake Pay & Scoreboard",
+  "description": "Fake pay and custom scoreboard mod like DonutSMP",
+  "authors": ["zyrosmp"],
+  "contact": {
+    "homepage": "https://github.com/zyrosmp-store"
+  },
+  "license": "MIT",
+  "icon": "assets/donutsmp_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.donutsmp.DonutSMPMod"
+    ],
+    "client": [
+      "com.donutsmp.client.DonutSMPClient"
+    ]
+  },
+  "mixins": [
+    "donutsmp_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
